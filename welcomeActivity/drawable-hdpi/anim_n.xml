@@ -1,0 +1,35 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:layout_width="55dip"
+        android:layout_height="115dip"
+        android:drawable="@drawable/t1_"
+        android:duration="1000">
+    </item>
+    <item
+        android:layout_width="55dip"
+        android:layout_height="115dip"
+        android:drawable="@drawable/n5_"
+        android:duration="1000">
+    </item>
+    <item
+        android:layout_width="55dip"
+        android:layout_height="115dip"
+        android:drawable="@drawable/t2_"
+        android:duration="1000">
+    </item>
+    <item
+        android:layout_width="55dip"
+        android:layout_height="115dip"
+        android:drawable="@drawable/t3_"
+        android:duration="1000">
+    </item>
+    <item
+        android:layout_width="55dip"
+        android:layout_height="115dip"
+        android:drawable="@drawable/t4_"
+        android:duration="1000">
+    </item>
+
+</animation-list>

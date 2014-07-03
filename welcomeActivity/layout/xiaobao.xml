@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@+drawable/xiaobao_"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/xiaobaotext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textSize="8pt"
+        android:background="#D15FEE"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton1" />
+        
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton2" />
+        
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radiobutton3" />
+    </RadioGroup>
+
+</LinearLayout>

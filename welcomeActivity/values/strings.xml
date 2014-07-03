@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WelcomeToAndroid</string>
+    <string name="endindActivity"> TanksActivity</string>
+    <string name="firstText">Introduction of prologue.</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textcolor">"#FF0000"</string>
+    <string name="action_settings">Settings</string>
+    <string name="maintext">Hello,everyone,welcome to the world of Android.</string>
+    <string name="firstbutton">Send the message to xiaobao.</string>
+    <string name="secondbutton">Send the message to dabao.</string>
+    <string name="thirdbutton">Send the message to the manager.</string>
+    <string name="xiaobao">Belong to the xiaobaoActivity</string>
+    <string name="manager">Belong to the managerActivity</string>
+    <string name="dabao">Belong to the dabaoActivity</string>
+    <string name="radiobutton1">answer one</string>
+    <string name="radiobutton2">answer two</string>
+    <string name="radiobutton3">no answer</string>
+    <string name="checkbox1">answer one</string>
+    <string name="checkbox2">answer two</string>
+    <string name="checkbox3">answer three</string>
+    <string name="managerbutton">ask the date of expiry</string>
+    <string name="showdatebutton">show the date of expiry</string>
+    <string name="ratetext">Manager,please score for xiaobao.</string>
+    <string name="welcomeWidgetText">Welcome!</string>
+    <string name="appWidgetButton">Press me!</string>
+    <string-array name="planets_array">
+        <item>please choose your choice</item>
+        <item>to xiaobao</item>
+        <item>to dabao</item>
+        <item>to manager</item>
+        <item>to the ending</item>
+    </string-array>
+  
+
+</resources>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@+drawable/background_"
+    android:orientation="vertical"
+    tools:context="com.kalay.welcometoandroid.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@+string/maintext"
+        android:textColor="#FFFF5D"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/firstbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="4dp"
+        android:text="@+string/firstbutton" />
+
+    <Button
+        android:id="@+id/secondbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="6dp"
+        android:text="@+string/secondbutton" />
+
+    <Button
+        android:id="@+id/thirdbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="6dp"
+        android:text="@+string/thirdbutton" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </Spinner>
+
+</LinearLayout>
